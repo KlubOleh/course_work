@@ -1,0 +1,18 @@
+#Program <_0AB1>
+START
+     DATA Integer_2 _1AB1, _2BC2, _3CD3, _4DE4, _5FE5, _6FG6, _7GH7;
+STOP
+
+
+If _7GH7 > _2BC2{
+  WRITE ();
+}
+Else{
+
+}
+If _7GH7 < _2BC2 {
+    WRITE();
+}
+If _5FE5 != _2BC2 {
+    WRITE();
+}

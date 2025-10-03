@@ -1,0 +1,22 @@
+#Program <_0AB1>
+START
+     DATA Integer_2 _1AB1, _2BC2, _3CD3, _4DE4, _5FE5, _6FG6, _7GH7;
+STOP
+
+READ(_1AB1);
+READ(_3CD3);
+READ(_4DE4);
+
+
+WRITE(_4DE4 DIV _3CD3); 
+WRITE(_4DE4 MOD _1AB1); 
+
+_2BC2 == _1AB1 + _3CD3;
+_5FE5 :> _1AB1 + 1;
+_6FG6 :> _1AB1 - 1;
+_7GH7 :> _4DE4 ** _3CD3;
+
+WRITE(_2BC2);
+WRITE(_5FE5);
+WRITE(_6FG6);
+WRITE(_7GH7);
