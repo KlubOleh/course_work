@@ -15,7 +15,7 @@ IF _1AA1 >= _2BB2 AND _1AA1 >= _3CC3 {
   }
   PUT ( _4MA4 )
 
-  IF ( _1AA1 == _2BB2 ) AND ( _1AA1 == _CCCCCCC ) AND ( _2BB2 == _3CC3 ) {
+  IF ( _1AA1 == _2BB2 ) AND ( _1AA1 == _3CC3 ) AND ( _2BB2 == _3CC3 ) {
     PUT ( 1 )
   } ELSE {
     PUT ( 0 )
@@ -33,3 +33,4 @@ IF _1AA1 >= _2BB2 AND _1AA1 >= _3CC3 {
     PUT ( 0 )
   }
 STOP
+
