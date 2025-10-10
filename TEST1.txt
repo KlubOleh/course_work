@@ -4,7 +4,7 @@ START
 
 
 READ(_1AA1);
-READ(__2BB2);
+READ(_2BB2);
 
 WRITE(_1AB1 ++ _2BB2);
 WRITE(_4YY4 -- _2BB2); 
@@ -17,3 +17,4 @@ _3XX3 ++ _3XX3 MOD 10 :> _4YY4;
 WRITE(_3XX3);
 WRITE(_4YY4);
 STOP
+
