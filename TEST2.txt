@@ -5,14 +5,15 @@ STOP
 
 
 If _7GH7 > _2BC2{
-  WRITE ();
+  WRITE (1);
 }
 Else{
 
 }
 If _7GH7 < _2BC2 {
-    WRITE();
+    WRITE(0);
 }
 If _5FE5 != _2BC2 {
-    WRITE();
+    WRITE(_5FE5);
 }
+
