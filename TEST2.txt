@@ -4,17 +4,9 @@ START
 STOP
 
 
-If _7GH7 > _2BC2{
+If _7GH7 > _2BC2 AND  _5FE5 != _2BC2{
   WRITE (1);
 }
-Else{
-
-}
-If _7GH7 < _2BC2 {
+If _1AB1 < _3CD3 OR _3CD3 == 0{
     WRITE(0);
 }
-If _5FE5 != _2BC2 {
-    WRITE(_5FE5);
-}
-
-
