@@ -1,20 +1,21 @@
 #Program _0AB1
-START
-     DATA Integer_2 _1AA1, _2BB2, _3XX3, _4YY4;
+Start
+     Data Integer_2 _1AA1, _2BB2, _3XX3, _4YY4;
 
 
-READ(_1AA1);
-READ(_2BB2);
+Read(_1AA1);
+Read(_2BB2);
 
-WRITE(_1AB1 ++ _2BB2);
-WRITE(_4YY4 -- _2BB2); 
-WRITE(_4YY4 ** _1AA1); 
-WRITE(_4YY4 MOD _1AA1); 
-WRITE(_4YY4 DIV _3CC3); 
-(_1AA1 -- _2BB2) ** 10 ++ (_1AA1 ++ _2BB2) DIV 10 :> _3XX3;
-_3XX3 ++ _3XX3 MOD 10 :> _4YY4;
+Write(_1AB1 ++ _2BB2);
+Write(_4YY4 -- _2BB2); 
+Write(_4YY4 ** _1AA1); 
+Write(_4YY4 MOD _1AA1); 
+Write(_4YY4 DIV _3CC3); 
+(_1AA1 -- _2BB2) ** 10 ++ (_1AA1 ++ _2BB2) Div 10 :> _3XX3;
+_3XX3 ++ _3XX3 Mod 10 :> _4YY4;
 
-WRITE(_3XX3);
-WRITE(_4YY4);
-STOP
+Write(_3XX3);
+Write(_4YY4);
+Stop
+
 
