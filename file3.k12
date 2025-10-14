@@ -4,13 +4,14 @@ Start
 Read(_1AA1);
 Read(_2BB2);
 
-  For _4CA4 :> _2BB2 Downto _1AA1 Do
+  For _2BB2 :> _4CA4 Downto _1AA1 Do
     Write ( _4CA4 * _4CA4 )
 
-  _3XX3 :> 0
-  For _4CA4 :> _1AA1 Downto 1 Do
-    For _5CB5 :> _2BB2 Downto 1 Do
-      _3XX3 :> _3XX3 + 1
+  0 :> _3XX3
+  For _1AA1 :> _4CA4 Downto 1 Do
+    For _2BB2 :> _5CB5 Downto 1 Do
+      _3XX3 + 1 :> _3XX3
   Write ( _3XX3 )
 
 Stop
+
