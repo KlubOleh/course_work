@@ -1,15 +1,16 @@
-NAME _PROGRAM ; 
-BODY DATA INTEGER16 _AAAAAAA , _BBBBBBB , _CYCLEAA , _CYCLEBB , _XVALUEE;
-  GET ( _AAAAAAA )
-  GET ( _BBBBBBB )
+#Program _0AB1
+Start
+     Data Integer_2 _1AA1, _2BB2, _3XX3, _4CA4, _5CB5;
+Read(_1AA1);
+Read(_2BB2);
 
-  FOR _BBBBBBB =: _CYCLEAA DOWNTO _AAAAAAA DO
-    PUT ( _CYCLEAA * _CYCLEAA )
+  For _4CA4 :> _2BB2 Downto _1AA1 Do
+    Write ( _4CA4 * _4CA4 )
 
-  0 =: _XVALUEE
-  FOR _AAAAAAA =: _CYCLEAA DOWNTO 1 DO
-    FOR _BBBBBBB =: _CYCLEBB DOWNTO 1 DO
-      _XVALUEE + 1 =: _XVALUEE 
-  PUT ( _XVALUEE )
+  _3XX3 :> 0
+  For _4CA4 :> _1AA1 Downto 1 Do
+    For _5CB5 :> _2BB2 Downto 1 Do
+      _3XX3 :> _3XX3 + 1
+  Write ( _3XX3 )
 
-END
+Stop
