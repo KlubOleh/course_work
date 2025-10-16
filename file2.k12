@@ -6,7 +6,7 @@ Read(_1AA1);
 Read(_2BB2);
 Read(_3CC3);
 
-  If _1AA1 >= _2BB2 AND _1AA1 >= _3CC3 {
+  If _1AA1 >= _2BB2 And _1AA1 >= _3CC3 {
     _4MA4 :> _1AA1
   } Else if _2BB2 >= _1AA1 And _2BB2 >= _3CC3 {
    _4MA4 :> _2BB2
@@ -21,7 +21,7 @@ Read(_3CC3);
     Write ( 0 )
   }
     
-  If Not ( _1AA1 >= 0 ) Or Not ( _2BB2 >= 0 ) Or Not ( _3CC3 >= 0 ) {
+  If ! ( _1AA1 >= 0 ) Or ! ( _2BB2 >= 0 ) Or ! ( _3CC3 >= 0 ) {
     Write ( -1 )
   } Else {
     Write ( 0 )
@@ -33,4 +33,3 @@ Read(_3CC3);
     Write ( 0 )
   }
  Stop
-
