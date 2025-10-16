@@ -27,9 +27,10 @@ Read(_3CC3);
     Write ( 0 )
   }
 
-  IF _1AA1 >= ( _2BB2 + _3CC3 ) {
+  IF _1AA1 >= ( _2BB2 ++ _3CC3 ) {
     Write ( 10 )
   } Else {
     Write ( 0 )
   }
  Stop
+
