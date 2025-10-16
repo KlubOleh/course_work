@@ -9,13 +9,14 @@ Read(_2BB2);
 Write(_1AB1 ++ _2BB2);
 Write(_4YY4 -- _2BB2); 
 Write(_4YY4 ** _1AA1); 
-Write(_4YY4 MOD _1AA1); 
-Write(_4YY4 DIV _3CC3); 
+Write(_4YY4 Mod _1AA1); 
+Write(_4YY4 Div _3CC3); 
 (_1AA1 -- _2BB2) ** 10 ++ (_1AA1 ++ _2BB2) Div 10 :> _3XX3;
 _3XX3 ++ _3XX3 Mod 10 :> _4YY4;
 
 Write(_3XX3);
 Write(_4YY4);
 Stop
+
 
 
