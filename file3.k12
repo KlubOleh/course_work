@@ -1,8 +1,8 @@
-#Program _0AB1
-Start
+#Program _0AB1;
      Data Integer_2 _1AA1, _2BB2, _3XX3, _4CA4, _5CB5;
-Read(_1AA1);
-Read(_2BB2);
+Start
+  Read(_1AA1);
+  Read(_2BB2);
 
   For _2BB2 :> _4CA4 Downto _1AA1 Do
     Write ( _4CA4 ** _4CA4 )
@@ -14,5 +14,6 @@ Read(_2BB2);
   Write ( _3XX3 )
 
 Stop
+
 
 
