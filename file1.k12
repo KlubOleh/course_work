@@ -1,4 +1,4 @@
-#Program _0AB1
+#Program _0AB1;
      Data Integer_2 _1AA1, _2BB2, _3XX3, _4YY4;
 Start
 
@@ -16,6 +16,7 @@ _3XX3 ++ _3XX3 Mod 10 :> _4YY4;
 Write(_3XX3);
 Write(_4YY4);
 Stop
+
 
 
 
