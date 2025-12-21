@@ -5,7 +5,7 @@ Start
 Read(_1AA1);
 Read(_2BB2);
 
-Write(_1AB1 ++ _2BB2);
+Write(_1AA1 ++ _2BB2);
 Write(_4YY4 -- _2BB2); 
 Write(_4YY4 ** _1AA1); 
 Write(_4YY4 Mod _1AA1); 
@@ -16,8 +16,3 @@ _3XX3 ++ _3XX3 Mod 10 :> _4YY4;
 Write(_3XX3);
 Write(_4YY4);
 Stop
-
-
-
-
-
